@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação de Currículo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Avaliação de Currículo</h1>
+        
+        <div id="curriculo">
+            <p>Currículo: Nome do Candidato</p>
+            <!-- Exemplo de PDF ou texto -->
+            <p>Link para o PDF ou conteúdo do currículo...</p>
+        </div>
+
+        <div id="avaliacao">
+            <button onclick="avaliar('Excelente')">Excelente</button>
+            <button onclick="avaliar('Bom')">Bom</button>
+            <button onclick="avaliar('Razoável')">Razoável</button>
+            <button onclick="avaliar('Ruim')">Ruim</button>
+        </div>
+
+        <textarea id="relatorio" placeholder="Escreva seu relatório aqui..."></textarea>
+
+        <button onclick="enviarAvaliacao()">Enviar Avaliação</button>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
