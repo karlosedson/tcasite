@@ -3,24 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel de Admin</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Painel de Administração</title>
+    <style>
+        /* Estilos básicos para o painel */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .stats {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Painel de Administração</h1>
-        <h2>Avaliações Recebidas</h2>
-        <div id="avaliacoes">
-            <!-- Exemplo de como as avaliações podem ser exibidas -->
-            <div class="avaliacao-item">
-                <p><strong>Nome do Candidato:</strong> João Silva</p>
-                <p><strong>Avaliação:</strong> Excelente</p>
-                <p><strong>Relatório:</strong> Este candidato demonstrou uma excelente capacidade de comunicação e organização. O currículo está bem estruturado.</p>
-            </div>
-            <!-- Adicionar mais avaliações conforme forem chegando -->
-        </div>
-    </div>
 
-    <script src="../assets/js/script.js"></script>
+        <div class="stats">
+            <p>Total de relatórios entregues: <strong>5</strong></p>
+            <p>Total de relatórios respondidos: <strong>3</strong></p>
+        </div>
+
+        <!-- Mais informações ou submissões podem ser listadas aqui -->
+    </div>
 </body>
 </html>
